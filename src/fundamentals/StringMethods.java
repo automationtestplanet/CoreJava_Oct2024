@@ -83,6 +83,8 @@ public class StringMethods {
 		System.out.println(string2.hashCode());
 		System.out.println(string3.hashCode());
 		
+		
+		
 	}
 
 }
