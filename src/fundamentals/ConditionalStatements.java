@@ -77,21 +77,4 @@ public class ConditionalStatements {
 		System.out.println("Avaialble Balance: " + BankTrasactions.balance);
 	}
 
-	public static void main(String[] args) {
-
-		ConditionalStatements srNagarBranch = new ConditionalStatements();
-		srNagarBranch.dispalyBalance();
-		srNagarBranch.deposit("SAVINGS", 50000);
-		srNagarBranch.dispalyBalance();
-
-		ConditionalStatements madhapurBranch = new ConditionalStatements();
-		madhapurBranch.withdrawl("SAVINGS", 20000);
-
-		madhapurBranch.dispalyBalance();
-
-		madhapurBranch.withdrawl("SAVINGS", 60000);
-
-		madhapurBranch.deposit("SAVINGS", 300000);
-
-	}
 }
